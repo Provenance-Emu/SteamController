@@ -17,8 +17,7 @@ let package = Package(
 	name: "SteamController",
 	platforms: [
 		.iOS(.v10),
-		.tvOS(.v10),
-		.macOS(.v10_13)
+		.tvOS(.v10)
 	],
 	products: [
 		// Products define the executables and libraries produced by a package, and make them visible to other packages.
