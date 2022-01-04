@@ -4,12 +4,14 @@
 import PackageDescription
 
 let cxxSettings: [CXXSetting] = [
-	.define("STEAMCONTROLLER_NO_PRIVATE_API", .when(platforms: [.macOS])),
+// 	.define("STEAMCONTROLLER_NO_PRIVATE_API", .when(platforms: [.macOS])),
+	.define("STEAMCONTROLLER_NO_PRIVATE_API"),
 	.define("STEAMCONTROLLER_NO_SWIZZLING")
 ]
 
 let cSettings: [CSetting] = [
-	.define("STEAMCONTROLLER_NO_PRIVATE_API", .when(platforms: [.macOS])),
+// 	.define("STEAMCONTROLLER_NO_PRIVATE_API", .when(platforms: [.macOS])),
+	.define("STEAMCONTROLLER_NO_PRIVATE_API"),
 	.define("STEAMCONTROLLER_NO_SWIZZLING")
 ]
 
